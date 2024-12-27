@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom de la ville" />
+
+    <EditText
+        android:id="@+id/editTextCodePostal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Code postal"
+        android:inputType="number" />
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
